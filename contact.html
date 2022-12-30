@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Nermin Muratovic</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="contact.css">
+  <style>
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    footer {
+      background-color: #93ffc4;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">My Portfolio</a>
+    </div>
+    <div class="nav-bar" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="contact.html">Contact</a></li>
+    </div>
+  </div>
+</nav>
+
+<form action="action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Contact me!</h1>
+    <p>Please fill in this form to send me a message.</p>
+    <hr>
+
+    <label for="emails-phones"><b>Email or Phone</b></label>
+    <input type="text" placeholder="Enter Email or Phone" name="email-phone" required>
+
+    <label for="names"><b>Name</b></label>
+    <input type="name" placeholder="Enter Name" name="name" required>
+
+    <label for="messages"><b>Message</b></label>
+    <input type="message" placeholder="Enter Message" name="messages" required class="message-box">
+
+    <p>By reaching out to me you agree <a href="#" style="color:rgb(230, 12, 12)">I will reach back out to you</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Submit</button>
+    </div>
+  </div>
+</form>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
